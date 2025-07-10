@@ -1,0 +1,66 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+header {
+    background-image: url("./images/Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 500px;   
+}
+
+/* Nav-Sec Styles*/
+
+.navbar-logo,
+.sign-up-btn,
+.banner-btn {
+    font: sans-serif;
+    font-weight: bold;
+    color: #4E47FF;
+} 
+
+.navbar-logo{
+    margin-top: 20px;
+}
+
+.sign-up-btn,
+.banner-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 12px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Banner styles */
+
+.banner-heading{
+    font-size: 45px;
+}
+
+.banner {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;                  
+    text-align: center;
+    margin-top: 150px;          
+}
+
+.banner-btn {
+    margin-top: 50px;
+}
