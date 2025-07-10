@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+    font-family: 'Inter','Segoe UI', sans-serif;
+}
+
 /* Header styles */
 
 header {
@@ -18,18 +22,21 @@ header {
 
 .navbar-logo,
 .sign-up-btn,
-.banner-btn {
-    font: sans-serif;
+.banner-btn,
+.action-btn {
+    font-size: 25px;
     font-weight: bold;
     color: #4E47FF;
 } 
 
 .navbar-logo{
+    font-size: 35px;
     margin-top: 20px;
 }
 
 .sign-up-btn,
-.banner-btn {
+.banner-btn,
+.action-btn {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 25px;
@@ -44,6 +51,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     align-items: center;
 }
 
@@ -55,12 +63,34 @@ nav {
 
 .banner {
     display: flex;               
-    justify-content: center;     
-    align-items: center;                  
+    justify-content: center;         
     text-align: center;
-    margin-top: 150px;          
+    margin-top: 130px;          
 }
 
 .banner-btn {
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+/* Action Section Styles */
+
+.action-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.action-title{
+    font-size: 60px;
+}
+
+.action-para{
+    font-size: 17px;
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.6);;
+}
+
+.action-btn{
+    margin-top: 25px;
 }
