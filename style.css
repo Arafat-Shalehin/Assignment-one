@@ -300,19 +300,62 @@ nav {
 
 .review-sub-title {
     color: rgba(0, 0, 0, 0.6);;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.reviewer-img-div{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .reviewer-img{
-    display: flex;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
-.reviewer-name,
-.review-time {
-    display: flex;
+.reviewer-details{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.6);;
     margin-bottom: 3px;
+}
+
+/* Button animation styles */
+
+.sign-up-btn:hover {
+  background: #ffffff;
+  color: black;
+  transform: translateY(-2px);
+  transition: 0.5s;
+  box-shadow: 0 8px 25px rgba(40, 0, 184, 0.4);
+}
+
+.sign-up-btn:active {
+  transform: translateY(0);
+}
+
+.banner-btn:hover {
+  background: #ffffff;
+  color: black;
+  transform: translateY(-2px);
+  transition: 0.5s;
+  box-shadow: 0 8px 25px rgba(40, 0, 184, 0.4);
+}
+
+.banner-btn:active {
+  transform: translateY(0);
+}
+
+.action-btn:hover {
+  background: #ffffff;
+  color: black;
+  transform: translateY(-2px);
+  transition: 0.5s;
+  box-shadow: 0 8px 25px rgba(7, 5, 15, 0.4);
+}
+
+.action-btn:active {
+  transform: translateY(0);
 }
