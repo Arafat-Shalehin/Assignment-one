@@ -165,13 +165,6 @@ nav {
   letter-spacing: -0.025em;
 }
 
-.contact-subtitle {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  font-weight: 400;
-}
-
 .contact-form {
   background: var(--white);
   padding: 3rem;
@@ -211,11 +204,6 @@ nav {
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
 .contact-btn {
   background: var(--secondary-color);
   color: var(--white);
@@ -231,6 +219,7 @@ nav {
 }
 
 .contact-btn:hover {
+    color: white;
   background: #7c3aed;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
