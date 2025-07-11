@@ -94,3 +94,46 @@ nav {
 .action-btn{
     margin-top: 25px;
 }
+
+/* Productive user section styles */
+
+.productive-user{
+    background-color: #9391de;;
+    margin-top: 80px;
+    margin-left: 183px;
+    border-radius: 20px;
+    width: 80%;        
+}
+
+section h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.productive-div,
+.description-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-para{
+    color:#4642bed1;
+    font-family: 'Inter','Segoe UI', sans-serif;
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+.Focused {
+    padding-left: 15px;
+}
+
+.Active {
+    padding-left: 20px;
+}
+
+.description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);;
+    padding-bottom: 50px;
+}
