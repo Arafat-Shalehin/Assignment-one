@@ -262,3 +262,57 @@ nav {
     color: rgb(255, 255, 254);
     margin-right: 40px;
 }
+
+/*User Feedback section styles*/
+
+.user-feedback{
+    margin-top: 80px;
+}
+
+.feedback-heading {
+    font-size: 50px;
+    text-align: center;
+}
+
+.review-main-div{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.review-div {
+    background-color: #f0eded;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 4px 0px lightslategray;
+    margin-top: 60px;
+}
+
+.star-cls {
+   margin-bottom: 10px;
+}
+
+.review-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review-sub-title {
+    color: rgba(0, 0, 0, 0.6);;
+    margin-bottom: 10px;
+}
+
+.reviewer-img{
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.reviewer-name,
+.review-time {
+    display: flex;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.6);;
+    margin-bottom: 3px;
+}
